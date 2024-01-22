@@ -1,0 +1,23 @@
+# IDE Configuration files/directories
+.vscode
+.idea
+
+# General files to ignore
+deleted/
+submissions/
+*.zip
+.ipynb_checkpoints
+*.swp
+*.svg
+*.png
+*.csv
+*.tfrecords
+
+# LaTeX side-effect files
+*.aux
+*.log
+*.out
+
+# Ignore .env file
+.env
+!.env.SAMPLE
